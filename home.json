@@ -1,5 +1,5 @@
 {
-  "_README": "Edit this file to change the homepage with NO app update. Add rows under Netflix.customRows: each is { title, ids[], provider? }. provider picks the poster CDN (Netflix | Prime | DisneyPlus | Hotstar), default Netflix. Users get changes on next launch (1h cache). top10Series/top10Movies/newThisWeek are optional overrides; omit to keep the automatic Top 10.",
+  "_README": "Edit this file to change any OTT homepage with NO app update. Top-level keys are the providers: Netflix, Prime, DisneyPlus, Hotstar. Under each, add rows in customRows: [{ title, ids[], provider? }]. provider picks the poster CDN (defaults to that section's provider). Use ids from THAT provider (Netflix/Prime ids differ). top10 / top10Series / top10Movies / newThisWeek are optional overrides; omit to keep the automatic ones. Users get changes on next launch (1h cache).",
   "Netflix": {
     "customRows": [
       {
@@ -8,5 +8,20 @@
         "provider": "Netflix"
       }
     ]
+  },
+  "Prime": {
+    "customRows": [
+      {
+        "title": "Popular on Prime",
+        "ids": ["0S3QYI59BAEI5KVLHCKSR91YGD", "0MR0DQN741JV3109SXXJSFAS3J", "0UABA3VF0B9O4BUEJ395QE759W", "0MXITRHIK96I50W29KZJEXU4MV", "0RICM4CPJ1SWXDS986RR14GK6K", "0GDSBKA78AT7B4TU92N7HFCHPB"],
+        "provider": "Prime"
+      }
+    ]
+  },
+  "DisneyPlus": {
+    "customRows": []
+  },
+  "Hotstar": {
+    "customRows": []
   }
 }
