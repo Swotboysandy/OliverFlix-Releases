@@ -1,0 +1,12 @@
+{
+  "_README": "Edit this file to change the homepage with NO app update. Add rows under Netflix.customRows: each is { title, ids[], provider? }. provider picks the poster CDN (Netflix | Prime | DisneyPlus | Hotstar), default Netflix. Users get changes on next launch (1h cache). top10Series/top10Movies/newThisWeek are optional overrides; omit to keep the automatic Top 10.",
+  "Netflix": {
+    "customRows": [
+      {
+        "title": "New on OliverFlix",
+        "ids": ["81947300", "81929201", "81948067", "82152349", "81737955", "81990239", "81788930", "82682323"],
+        "provider": "Netflix"
+      }
+    ]
+  }
+}
