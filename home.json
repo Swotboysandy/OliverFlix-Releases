@@ -1,5 +1,5 @@
 {
-  "_README": "Edit this file to change any OTT homepage with NO app update. Top-level keys are the providers: Netflix, Prime, DisneyPlus, Hotstar. Under each, add rows in customRows: [{ title, ids[], provider? }]. provider picks the poster CDN (defaults to that section's provider). Use ids from THAT provider (Netflix/Prime ids differ). top10 / top10Series / top10Movies / newThisWeek are optional overrides; omit to keep the automatic ones. Users get changes on next launch (1h cache).",
+  "_README": "Edit this file to change any homepage with NO app update. Top-level keys are the providers: Netflix, Prime, DisneyPlus, Hotstar, Nostalgia. Under each, add rows in customRows: [{ title, ids[], provider? }]. For OTTs use that provider's ids (Netflix/Prime ids differ). For Nostalgia, ids are the on-device catalog slugs (e.g. tom-and-jerry, looney-tunes) and rows render as horizontal carousels above the grid. top10 / top10Series / top10Movies / newThisWeek are optional overrides; omit to keep the automatic ones. Users get changes on next launch (1h cache).",
   "Netflix": {
     "customRows": [
       {
@@ -23,5 +23,13 @@
   },
   "Hotstar": {
     "customRows": []
+  },
+  "Nostalgia": {
+    "customRows": [
+      {
+        "title": "Timeless Classics",
+        "ids": ["tom-and-jerry", "looney-tunes", "merrie-melodies", "pink-panther", "popeye", "disney-classics"]
+      }
+    ]
   }
 }
