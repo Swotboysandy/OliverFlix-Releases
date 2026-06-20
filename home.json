@@ -1,12 +1,24 @@
 {
-  "_README": "Edit this file to change any homepage with NO app update. Top-level keys are the providers: Netflix, Prime, DisneyPlus, Hotstar, Nostalgia. Under each, add rows in customRows: [{ title, ids[], provider? }]. For OTTs use that provider's ids (Netflix/Prime ids differ). For Nostalgia, ids are the on-device catalog slugs (e.g. tom-and-jerry, looney-tunes) and rows render as horizontal carousels above the grid. top10 / top10Series / top10Movies / newThisWeek are optional overrides; omit to keep the automatic ones. Users get changes on next launch (1h cache).",
+  "_README": "Edit this file to change any homepage with NO app update. Top-level keys are the providers: Netflix, Prime, DisneyPlus, Hotstar, Nostalgia. Under each, add rows in customRows: [{ title, ids[], provider? }]. Set replaceBaked:true to make customRows REPLACE the baked/scraped rows (full home refresh). For OTTs use that provider's ids (Netflix/Prime ids differ). For Nostalgia, ids are on-device catalog slugs. top10 / top10Series / top10Movies / newThisWeek are optional overrides; omit to keep the automatic ones. Users get changes on next launch (1h cache).",
   "Netflix": {
+    "replaceBaked": true,
     "customRows": [
-      {
-        "title": "New on OliverFlix",
-        "ids": ["81947300", "81929201", "81948067", "82152349", "81737955", "81990239", "81788930", "82682323"],
-        "provider": "Netflix"
-      }
+      { "title": "Emmy-Winning Crime TV Shows", "ids": ["70136126", "80177090", "81437051", "80145240", "81665094", "81756069", "81287562"], "provider": "Netflix" },
+      { "title": "TV Sci-Fi & Fantasy", "ids": ["80177458", "80104198", "81231974", "80057281", "81150303", "82063102", "81948067"], "provider": "Netflix" },
+      { "title": "So Completely Captivating", "ids": ["81450827", "81313283", "80192098", "81396545", "81303831", "80113612", "80104434"], "provider": "Netflix" },
+      { "title": "Supernatural TV Shows", "ids": ["80232926", "80189685", "81361105", "80238357", "70204970", "70204957", "81975196"], "provider": "Netflix" },
+      { "title": "Critically-acclaimed Scary Series", "ids": ["70177057", "81627130", "81667463", "81083626", "80189221", "80209229", "81237854"], "provider": "Netflix" },
+      { "title": "Top Searches", "ids": ["81365087", "81975196", "81696655", "81520295", "81707950", "80123798", "81243992"], "provider": "Netflix" },
+      { "title": "New on Netflix", "ids": ["82813021", "82821750", "81716219", "81674655", "82025112", "81922765", "81687036"], "provider": "Netflix" },
+      { "title": "Your Next Watch", "ids": ["82813021", "81788930", "81947300", "70197042", "82008494", "81716219", "70155590"], "provider": "Netflix" },
+      { "title": "Critically-acclaimed High School Series", "ids": ["70143860", "81237994", "81002370", "81231974", "80179190", "81649877", "80197526"], "provider": "Netflix" },
+      { "title": "Rousing TV Shows", "ids": ["80217863", "81788927", "82063102", "81926758", "81715444", "81068725", "70300472"], "provider": "Netflix" },
+      { "title": "Dark Sci-Fi Thriller TV Shows", "ids": ["80097140", "80200575", "80105699", "80025744", "81217220", "70264888", "80154610"], "provider": "Netflix" },
+      { "title": "Gems for You", "ids": ["80179292", "70195800", "80021955", "70281312", "80995578", "80238738", "81303831"], "provider": "Netflix" },
+      { "title": "US TV Sci-Fi & Fantasy", "ids": ["81150303", "70181814", "80214767", "81024821", "80236319", "81506915", "80214512"], "provider": "Netflix" },
+      { "title": "Critically Acclaimed TV Shows", "ids": ["70143840", "80113612", "70153404", "70136117", "81231974", "80217863", "80117552"], "provider": "Netflix" },
+      { "title": "Suspenseful TV Shows", "ids": ["81396545", "80104434", "80113647", "81288983", "70181814", "70177057", "80025172"], "provider": "Netflix" },
+      { "title": "Critically Acclaimed Exciting TV Shows", "ids": ["80057918", "70301870", "70281312", "80192098", "81002370", "80189685", "80057281"], "provider": "Netflix" }
     ]
   },
   "Prime": {
