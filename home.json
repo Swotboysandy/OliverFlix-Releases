@@ -1,6 +1,7 @@
 {
-  "_README": "Edit this file to change any homepage with NO app update. Top-level keys are the providers: Netflix, Prime, DisneyPlus, Hotstar, Nostalgia. Under each, add rows in customRows: [{ title, ids[], provider? }]. Set replaceBaked:true to make customRows REPLACE the baked/scraped rows (full home refresh). For OTTs use that provider's ids (Netflix/Prime ids differ). For Nostalgia, ids are on-device catalog slugs. top10 / top10Series / top10Movies / newThisWeek are optional overrides; omit to keep the automatic ones. Users get changes on next launch (1h cache).",
+  "_README": "Edit this file to change any homepage with NO app update. Top-level keys are the providers: Netflix, Prime, DisneyPlus, Hotstar, Nostalgia. Under each, add rows in customRows: [{ title, ids[], provider? }]. Set replaceBaked:true to make customRows REPLACE the baked/scraped rows (full home refresh). 'hero' sets the front slider (first 10 ids) independently of the Top 10 row. For OTTs use that provider's ids (Netflix/Prime ids differ). For Nostalgia, ids are on-device catalog slugs. top10 / top10Series / top10Movies / newThisWeek are optional overrides; omit to keep the automatic ones. Users get changes on next launch (1h cache).",
   "Netflix": {
+    "hero": { "title": "Featured", "ids": ["81365087", "81975196", "81696655", "81520295", "81707950", "80123798", "81243992", "80057281"] },
     "replaceBaked": true,
     "customRows": [
       { "title": "Emmy-Winning Crime TV Shows", "ids": ["70136126", "80177090", "81437051", "80145240", "81665094", "81756069", "81287562"], "provider": "Netflix" },
