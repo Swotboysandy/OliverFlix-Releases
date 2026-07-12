@@ -231,16 +231,48 @@
   "Prime": {
     "customRows": [
       {
-        "title": "Popular on Prime",
+        "title": "Apple TV+: Recently Added",
+        "provider": "Prime",
+        "ids": [
+          "0Q0W0PJ63UPADZ3ETO3HZ5AT47",
+          "0MEYJKN34E2DBOY4OY7Z31N4Q4",
+          "0QH983F9R6U3EAUBDYWM3LI8DG",
+          "0OVWHROEPGAN1X2ZC3LAIPAUCF",
+          "0M83VPPQ8HZ6IUX3TKE5OGJF8R"
+        ]
+      },
+      {
+        "title": "Horror TV",
+        "provider": "Prime",
+        "ids": [
+          "0KPVKMZRL5AAD3TZ5LOE2PSWAB",
+          "0JGL8Y3ISW13ENHIFNVJFSEWCG",
+          "0PHH94TUFPZTJX2QIJ4ORWXGS7",
+          "0QTMT3WZY9D7UJF9UDLSGPE2X3",
+          "0I1XM2OLB9Y41N90KUJD7OABUN"
+        ]
+      },
+      {
+        "title": "Top 10 Series in Prime",
+        "provider": "Prime",
+        "ids": [
+          "0N1TD2P7D1XJATRPEGPCLED5XB",
+          "0S3QYI59BAEI5KVLHCKSR91YGD",
+          "0KAW4T6OOSAPQJVCFDCOXNLGJU",
+          "0KEP4A6DWRKFYQFTSU5RXHEAN2",
+          "0LB9T0DVF6RAL7XFN9BHF632TL"
+        ]
+      },
+      {
+        "title": "Trending Now",
+        "provider": "Prime",
         "ids": [
           "0S3QYI59BAEI5KVLHCKSR91YGD",
           "0MR0DQN741JV3109SXXJSFAS3J",
           "0UABA3VF0B9O4BUEJ395QE759W",
           "0MXITRHIK96I50W29KZJEXU4MV",
-          "0RICM4CPJ1SWXDS986RR14GK6K",
-          "0GDSBKA78AT7B4TU92N7HFCHPB"
-        ],
-        "provider": "Prime"
+          "0RICM4CPJ1SWXDS986RR14GK6K"
+        ]
       }
     ]
   },
