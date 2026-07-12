@@ -1,32 +1,245 @@
 {
   "_README": "Edit this file to change any homepage with NO app update. Top-level keys are the providers: Netflix, Prime, DisneyPlus, Hotstar, Nostalgia. Under each, add rows in customRows: [{ title, ids[], provider? }]. Set replaceBaked:true to make customRows REPLACE the baked/scraped rows (full home refresh). 'hero' sets the front slider (first 10 ids) independently of the Top 10 row. For OTTs use that provider's ids (Netflix/Prime ids differ). For Nostalgia, ids are on-device catalog slugs. top10 / top10Series / top10Movies / newThisWeek are optional overrides; omit to keep the automatic ones. Users get changes on next launch (1h cache).",
   "Netflix": {
-    "hero": { "title": "Featured", "ids": ["81605886", "81365087", "81975196", "82188226", "82682338", "81696655", "81520295", "82146940", "81707950", "80123798"] },
+    "hero": {
+      "title": "Featured",
+      "ids": [
+        "81605886",
+        "81365087",
+        "81975196",
+        "82188226",
+        "82682338",
+        "81696655",
+        "81520295",
+        "82146940",
+        "81707950",
+        "80123798"
+      ]
+    },
     "replaceBaked": true,
     "customRows": [
-      { "title": "We Think You’ll Love These", "ids": ["82188226", "80237957", "82682338", "70197042", "82821750", "70155584", "70136126"], "provider": "Netflix" },
-      { "title": "K-pop Stars on Stage and on Screen", "ids": ["81444051", "81095101", "81738996", "81742615", "82065691", "81653386", "81669779"], "provider": "Netflix" },
-      { "title": "Black Stories", "ids": ["60020819", "80179292", "80216665", "81645170", "80222802", "81700899", "81005297"], "provider": "Netflix" },
-      { "title": "Comedy Movies", "ids": ["80080359", "70131764", "70298250", "82008494", "70129117", "81458424", "80091938"], "provider": "Netflix" },
-      { "title": "Halloween Comedies", "ids": ["82008494", "81231974", "81674500", "82180278", "81464329", "81686134", "81728111"], "provider": "Netflix" },
-      { "title": "Imaginative TV Action & Adventure", "ids": ["80189685", "80241239", "80186863", "81361105", "80217863", "81243969", "81948067"], "provider": "Netflix" },
-      { "title": "Thrillers with a Side of Action", "ids": ["70044892", "70071613", "81072109", "81450827", "80081537", "80180171", "80200575"], "provider": "Netflix" },
-      { "title": "Critically Acclaimed US TV Dramas", "ids": ["70143840", "80117552", "80172955", "81083626", "81303831", "80057918", "70155618"], "provider": "Netflix" },
-      { "title": "New on Netflix", "ids": ["82146940", "81605886", "70136130", "82188226", "80237957", "82682338", "82032597"], "provider": "Netflix" },
-      { "title": "Post-Apocalyptic Sci-Fi", "ids": ["80177458", "82746480", "81008221", "81046193", "70181814", "81033445", "80082850"], "provider": "Netflix" },
-      { "title": "Imaginative Sci-Fi", "ids": ["81405070", "80104198", "81152269", "81479836", "80179784", "70143807", "81480111"], "provider": "Netflix" },
-      { "title": "Feel All the Feels", "ids": ["81439550", "81427990", "81305964", "82040245", "81068725", "82065691", "80111373"], "provider": "Netflix" },
-      { "title": "Critically Acclaimed Exciting TV Shows", "ids": ["70197042", "80192098", "80074249", "70301870", "80057918", "81033445", "81149450"], "provider": "Netflix" },
-      { "title": "Critically-acclaimed High School Series", "ids": ["70143860", "81237994", "80179190", "80200942", "81002370", "81231974", "81649877"], "provider": "Netflix" },
-      { "title": "Crime Stories with a Romance Twist", "ids": ["70136126", "70176866", "70155590", "80192098", "81303831", "81666165", "80057918"], "provider": "Netflix" },
-      { "title": "TV Comedies", "ids": ["82821750", "70155618", "80031533", "80218448", "81739042", "81405070", "81697769"], "provider": "Netflix" }
+      {
+        "title": "We Think You’ll Love These",
+        "ids": [
+          "82188226",
+          "80237957",
+          "82682338",
+          "70197042",
+          "82821750",
+          "70155584",
+          "70136126"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "K-pop Stars on Stage and on Screen",
+        "ids": [
+          "81444051",
+          "81095101",
+          "81738996",
+          "81742615",
+          "82065691",
+          "81653386",
+          "81669779"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Black Stories",
+        "ids": [
+          "60020819",
+          "80179292",
+          "80216665",
+          "81645170",
+          "80222802",
+          "81700899",
+          "81005297"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Comedy Movies",
+        "ids": [
+          "80080359",
+          "70131764",
+          "70298250",
+          "82008494",
+          "70129117",
+          "81458424",
+          "80091938"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Halloween Comedies",
+        "ids": [
+          "82008494",
+          "81231974",
+          "81674500",
+          "82180278",
+          "81464329",
+          "81686134",
+          "81728111"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Imaginative TV Action & Adventure",
+        "ids": [
+          "80189685",
+          "80241239",
+          "80186863",
+          "81361105",
+          "80217863",
+          "81243969",
+          "81948067"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Thrillers with a Side of Action",
+        "ids": [
+          "70044892",
+          "70071613",
+          "81072109",
+          "81450827",
+          "80081537",
+          "80180171",
+          "80200575"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Critically Acclaimed US TV Dramas",
+        "ids": [
+          "70143840",
+          "80117552",
+          "80172955",
+          "81083626",
+          "81303831",
+          "80057918",
+          "70155618"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "New on Netflix",
+        "ids": [
+          "82146940",
+          "81605886",
+          "70136130",
+          "82188226",
+          "80237957",
+          "82682338",
+          "82032597"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Post-Apocalyptic Sci-Fi",
+        "ids": [
+          "80177458",
+          "82746480",
+          "81008221",
+          "81046193",
+          "70181814",
+          "81033445",
+          "80082850"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Imaginative Sci-Fi",
+        "ids": [
+          "81405070",
+          "80104198",
+          "81152269",
+          "81479836",
+          "80179784",
+          "70143807",
+          "81480111"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Feel All the Feels",
+        "ids": [
+          "81439550",
+          "81427990",
+          "81305964",
+          "82040245",
+          "81068725",
+          "82065691",
+          "80111373"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Critically Acclaimed Exciting TV Shows",
+        "ids": [
+          "70197042",
+          "80192098",
+          "80074249",
+          "70301870",
+          "80057918",
+          "81033445",
+          "81149450"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Critically-acclaimed High School Series",
+        "ids": [
+          "70143860",
+          "81237994",
+          "80179190",
+          "80200942",
+          "81002370",
+          "81231974",
+          "81649877"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "Crime Stories with a Romance Twist",
+        "ids": [
+          "70136126",
+          "70176866",
+          "70155590",
+          "80192098",
+          "81303831",
+          "81666165",
+          "80057918"
+        ],
+        "provider": "Netflix"
+      },
+      {
+        "title": "TV Comedies",
+        "ids": [
+          "82821750",
+          "70155618",
+          "80031533",
+          "80218448",
+          "81739042",
+          "81405070",
+          "81697769"
+        ],
+        "provider": "Netflix"
+      }
     ]
   },
   "Prime": {
     "customRows": [
       {
         "title": "Popular on Prime",
-        "ids": ["0S3QYI59BAEI5KVLHCKSR91YGD", "0MR0DQN741JV3109SXXJSFAS3J", "0UABA3VF0B9O4BUEJ395QE759W", "0MXITRHIK96I50W29KZJEXU4MV", "0RICM4CPJ1SWXDS986RR14GK6K", "0GDSBKA78AT7B4TU92N7HFCHPB"],
+        "ids": [
+          "0S3QYI59BAEI5KVLHCKSR91YGD",
+          "0MR0DQN741JV3109SXXJSFAS3J",
+          "0UABA3VF0B9O4BUEJ395QE759W",
+          "0MXITRHIK96I50W29KZJEXU4MV",
+          "0RICM4CPJ1SWXDS986RR14GK6K",
+          "0GDSBKA78AT7B4TU92N7HFCHPB"
+        ],
         "provider": "Prime"
       }
     ]
@@ -41,8 +254,16 @@
     "customRows": [
       {
         "title": "Timeless Classics",
-        "ids": ["tom-and-jerry", "looney-tunes", "merrie-melodies", "pink-panther", "popeye", "disney-classics"]
+        "ids": [
+          "tom-and-jerry",
+          "looney-tunes",
+          "merrie-melodies",
+          "pink-panther",
+          "popeye",
+          "disney-classics"
+        ]
       }
     ]
-  }
+  },
+  "oliverResolver": "http://137.23.54.247:3000/oliver-resolve"
 }
