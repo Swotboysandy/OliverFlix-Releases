@@ -406,6 +406,50 @@
   "Prime": {
     "customRows": [
       {
+        "title": "New & Recently Added on Prime",
+        "provider": "Prime",
+        "ids": [
+          "0PIWLCLT8P1SEPFZ29OSVC46XV",
+          "0PQOR8P15JE6GDMUCVM2FDUKJD",
+          "0THSIT3HTAA7DRBB05EBO6FHMN",
+          "0G7LAUEAHE8HIE71J03VX1LMU8",
+          "0IR9VI8C4BBY3HMFMTDKFZ5RP5",
+          "0KC4UA7AEQAJ31QST1T3G235KD",
+          "0IJZ0G6KB392420AUJIQYAPKZX",
+          "0SKFMB9C23GG83GDL20Q3Q3LHL",
+          "0N4768AJPZEQQG419IVCDQ2H7O",
+          "0U3US3Q3XYZ90A4A85Z14KOET8",
+          "0I4OWKAPLUWIO5013W3F3ZN952",
+          "0O0Y3RM5NIGN9SMVL6098UHNBR"
+        ]
+      },
+      {
+        "title": "New Movies on Prime",
+        "provider": "Prime",
+        "ids": [
+          "0HXUQ2PMBPJS8BW7MLR3PDWCU3",
+          "0PN0QUSC4GJ66QGSQWBE70ERPU",
+          "0TONNSRQ5P501SBECV86B0ENOP",
+          "0STHFCXK8P9ZXBWHEMKNF9GCQV"
+        ]
+      },
+      {
+        "title": "Trending in VDesi",
+        "provider": "Prime",
+        "ids": [
+          "0R9E9DYPVXGEJ07O14LQEJ2KOT",
+          "0LKCHIZP6E5N9AE93EIV50L6G1",
+          "0G4V1PLZQ25L0A02KRGYBY2V3W",
+          "0LQOB0WJRKOU0KT9HAK2M3VL6U",
+          "0K60VO9I5G9GTW830YMI8RQPH0",
+          "0TPLCMHNMLYK5OLEK9CBJL0ZAJ",
+          "0ITLMK4977N3B5KTYNGLYCAV96",
+          "0LZGV5R3ONDJOABO46ZUZNHL2Q",
+          "0N44U865OX7I1SXGX2IZS5V6R0",
+          "0NKUDJIM5VAE9079ZGUUVI3SS4"
+        ]
+      },
+      {
         "title": "Drama Movies",
         "ids": [
           "0JP2YUWYYUI1Q2NN73XBXXXC2T",
