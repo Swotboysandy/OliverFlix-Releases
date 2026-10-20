@@ -1,1 +1,9 @@
 wed.ps1
+blog.xml
+blog-clean.xml
+# Releases ship as GitHub Releases only; never commit app builds, notes or code here.
+*.apk
+RELEASE_NOTES_*
+temp_*
+*.xml
+*.ps1
